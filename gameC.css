@@ -1,0 +1,60 @@
+body{
+    background-color: #99ccff;
+
+
+}
+h3{
+    display: inline-block;
+    margin-top: 110px;
+    font-style: italic;
+    margin-left: 199px;
+}
+#show_status{
+    text-align: center;
+}
+#player_1{
+    margin-left:0px;
+color:#99ff99;
+
+}
+#player_2{
+    color: #33ffff;
+}
+.card_play{
+    color: #ff80ff;
+}
+.score{
+    color: #ffff1a;
+}
+table, tr:not(:last-child){
+    border-bottom: 3px solid blueviolet;
+
+    border-collapse: collapse;
+}
+table{
+    width: 50%;
+   height:46%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: none;
+}
+
+table td:not(:last-child){
+border-right: 3px solid blueviolet;
+    border-collapse: collapse;
+
+}
+table td{
+    text-align: center;
+    width:30px;
+    height:30px;
+}
+.x{
+    font-size:30px;
+}
+.o{
+    font-size:30px;
+}
+
